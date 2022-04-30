@@ -3,8 +3,8 @@ import '@testing-library/jest-dom/extend-expect'
 import Home from '../pages/index'
 
 it('Should render title text', async () => {
-  render(<Home />)
   await (() => {
+    render(<Home />)
     expect(screen.getByText('Next.js!')).toBeInTheDocument()
   })
 })
