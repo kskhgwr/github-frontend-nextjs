@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch"
+    "test": "jest --env=jsdom --verbose"
   },
   "dependencies": {
     "next": "12.1.5",
